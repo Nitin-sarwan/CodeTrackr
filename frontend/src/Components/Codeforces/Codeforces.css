@@ -1,0 +1,117 @@
+.main-container{
+    display:flex;
+    flex-direction: column;
+}
+.main-container h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon img {
+    width: 40px;
+    height: 40px;
+    margin-right:3px;
+    margin-bottom:10px;
+}
+.container{
+  display:flex;
+  flex-direction: column;
+}
+.contest{
+   display: flex;
+   width:100%;
+   flex-direction: column;
+}
+.titles{
+    display:grid;
+    grid-template-columns:1fr 1fr 2fr 1fr;
+    grid-gap: 10px;
+    font-size:1.3rem;
+    font-family:'Roboto', sans-serif;
+    margin-bottom:10px;
+    padding:10px;
+    border:2px solid black;
+    border-radius:10px;
+}
+.past-titles {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr 1fr 1fr;
+    grid-gap: 10px;
+    font-size: 1.3rem;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.card{
+    padding:10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+    grid-gap: 10px; 
+    border:2px solid black;
+    border-radius:10px;
+    margin:5px;
+}
+.past-card {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 5px;
+}
+.card p{
+    font-size:1.2rem;
+    font-family:'Roboto', sans-serif;
+}
+.past-card p {
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+}
+.card h3{
+   max-width:80%;
+}
+.past-card h3 {
+    max-width: 80%;
+}
+.card a{
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+}
+.past-card a {
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+}
+
+.page-number {
+    border: 1px solid white;
+    border-radius: 2px;
+    font-size: 1.2em;
+    padding: 5px;
+    margin: 2px;
+}
+
+.page-number:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.pagination {
+    padding-bottom: 10px;
+}
+
+.emoji {
+    padding: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+}

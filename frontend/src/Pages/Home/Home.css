@@ -1,0 +1,22 @@
+.home-container{
+    text-align:center;
+}
+.home-container button{
+    background-color: black; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius:25px;
+    position:fixed;
+    bottom: 20px;
+    left:50%;
+    transform:translateX(-50%);
+    max-width:100%;
+    min-width:90%;
+}
